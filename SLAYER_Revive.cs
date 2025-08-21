@@ -488,7 +488,7 @@ public class SLAYER_Revive : BasePlugin, IPluginConfig<SLAYER_ReviveConfig>
     {
         // Define the total length of the loading bar
         const int totalLength = 15; // Total characters in the loading bar
-        const char filledChar = '▐';
+        const char filledChar = '█';
         const char emptyChar = '░';
 
         // Calculate the number of filled characters based on the revive timer
@@ -496,8 +496,9 @@ public class SLAYER_Revive : BasePlugin, IPluginConfig<SLAYER_ReviveConfig>
         filledLength = Math.Clamp(filledLength, 0, totalLength); // Ensure within bounds
 
         // Create the loading text
-        string loadingText = "<font class='fontSize-l' color='red'>【</font><font class='fontSize-l' color='green'>" + new string(filledChar, filledLength) + new string(emptyChar, totalLength - filledLength) + "</font><font class='fontSize-l' color='red'> 】</font>";
+        string loadingText = "<font class='fontSize-l' color='red'>⟪ </font><font class='fontSize-l' color='green'>" + new string(filledChar, filledLength) + new string(emptyChar, totalLength - filledLength) + "</font><font class='fontSize-l' color='red'> ⟫</font>";
 
         return loadingText;
     }
 }
+

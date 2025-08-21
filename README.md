@@ -1,4 +1,3 @@
-![](https://img.shields.io/github/downloads/zakriamansoor47/SLAYER_Revive/total?style=for-the-badge)
 
 # Accepting Paid Request! Discord: Slayer47#7002
 # Donation

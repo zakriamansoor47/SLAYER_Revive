@@ -1,20 +1,11 @@
 ﻿using CounterStrikeSharp.API;
 using CounterStrikeSharp.API.Core;
-using CounterStrikeSharp.API.Core.Attributes.Registration;
 using CounterStrikeSharp.API.Modules.Utils;
 using CounterStrikeSharp.API.Modules.Admin;
-using CounterStrikeSharp.API.Modules.Commands;
 using CounterStrikeSharp.API.Modules.Timers;
-using CounterStrikeSharp.API.Modules.Cvars;
-using CounterStrikeSharp.API.Modules.Menu;
-using CounterStrikeSharp.API.Modules.Memory;
-using CounterStrikeSharp.API.Modules.Memory.DynamicFunctions;
-using CounterStrikeSharp.API.Modules.Entities.Constants;
-using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Drawing;
 using Microsoft.Extensions.Logging;
-using System.Runtime.InteropServices;
 
 namespace SLAYER_Revive;
 // Used these to remove compile warnings
